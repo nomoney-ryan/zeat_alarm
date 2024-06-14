@@ -1,0 +1,39 @@
+.container {
+  @apply w-[600px] h-[900px] flex flex-col bg-white overflow-scroll;
+}
+
+.header {
+  @apply h-[185px] flex flex-col bg-gray-10 pt-6 pb-10 px-[30px];
+}
+
+.content {
+  @apply h-auto flex flex-col px-[30px] pt-[26px] pb-8;
+}
+
+.title {
+  @apply font-pop_sb mt-[34px] leading-[30px] text-20;
+}
+
+.date {
+  @apply font-pop mt-[6px] text-14;
+}
+
+.content_main {
+  @apply font-pop_sb text-16 whitespace-pre-wrap mt-6;
+}
+
+.content_main_s {
+  @apply font-pop_sb text-14 whitespace-pre-wrap mt-6;
+}
+
+.content_sub {
+  @apply text-14 whitespace-pre-wrap mt-2;
+}
+
+.content_depth_1 {
+  @apply pl-5;
+}
+
+.discord_button {
+  @apply w-[190px] h-[40px] font-pop text-white text-16 bg-text-black rounded-full mt-10;
+}

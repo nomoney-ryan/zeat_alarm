@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  color: #1a1b27;
+  background: white;
+  width: 100vw;
+  height: 100vh;
+  padding: 0;
+  word-break: keep-all;
+}
+
+html {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox  */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+@font-face {
+  font-family: "poppins";
+  src: url("/font/poppins_regular.otf");
+}
+@font-face {
+  font-family: "poppins_bold";
+  src: url("/font/poppins_bold.otf");
+}
+@font-face {
+  font-family: "poppins_semibold";
+  src: url("/font/poppins_semi_bold.otf");
+}
+@font-face {
+  font-family: "pretend";
+  src: url("/font/pretendard_regular.woff") format(woff),
+    url("/font/pretendard_regular.woff2") format(woff2),
+    url("/font/pretendard_regular.otf") format(otf);
+}
+@font-face {
+  font-family: "pretend_bold";
+  src: url("/font/pretendard_bold.woff") format(woff),
+    url("/font/pretendard_bold.woff2") format(woff2),
+    url("/font/pretendard_bold.otf") format(otf);
+}
+@font-face {
+  font-family: "pretend_semibold";
+  src: url("/font/pretendard_semi_bold.woff") format(woff),
+    url("/font/pretendard_semi_bold.woff2") format(woff2),
+    url("/font/pretendard_semi_bold.otf") format(otf);
+}
